@@ -1,4 +1,40 @@
-button {
+* {
+    box-sizing: border-box;
+    font-size: 120%;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#statusBar,
+#gameBoard {
+    margin-bottom: 40px;
+}
+
+#statusBar {
+
+}
+
+#gameBoard {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#informationTable {
+
+}
+
+.Button {
     width: 100px;
+    height: 100px;
+}
+
+#sendNewGame {
+    width: 700px;
     height: 100px;
 }
